@@ -1,0 +1,8 @@
+# Write a Python program to convert a string into datetime.
+
+from datetime import datetime
+
+date_obj = datetime.strptime('May 12 2016  2:25AM', '%b %d %Y %I:%M%p')
+print()
+print(date_obj)
+print()
